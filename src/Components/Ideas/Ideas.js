@@ -2,14 +2,14 @@ import React from 'react'
 import Card from '../Card/Card'
 import './Ideas.css'
 
-const Ideas = ({response}) => {
+const Ideas = ({responseFacts}) => {
 
-const ideaCards = response.map(idea => {
+const ideaCards = responseFacts.map(idea => {
   return(
     <Card
-      facts={response}
+      facts={responseFacts}
       id={Date.now()}
-      key={response.id}
+      key={responseFacts.id}
     />
   )
 })

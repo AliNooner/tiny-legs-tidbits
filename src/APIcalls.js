@@ -21,13 +21,4 @@ const responseData = (prompt) => {
     .then(res => res.json())
 }
 
-// const data = {
-//   "prompt": "What are 5 key points I should know when studying Ancient Rome?",
-//   "temperature": 0.3,
-//   "max_tokens": 150,
-//   "top_p": 1.0,
-//   "frequency_penalty": 0.0,
-//   "presence_penalty": 0.0
-// };
-
 export default responseData

@@ -16,7 +16,7 @@ class Form extends Component {
   handleSubmit = (e) => {
     e.preventDefault()
     responseData(this.state.prompt)
-    // console.log('here', this.state.prompt)
+    console.log('here', this.state.prompt)
   }
 
 

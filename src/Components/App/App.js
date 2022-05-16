@@ -18,19 +18,21 @@ class App extends Component {
   constructor() {
     super()
     this.state = {
-      response: []
+      response: [],
+      apiResponse: []
     }
   }
 
 addPrompt = (newInput) => {
   this.setState({response: [...this.state.response, newInput]})
+  console.log(this.state.response, 'response')
 }
 
   render() {
     return(
       <main className='App'>
         <h1>APP NAME</h1>
-        <Ideas response={this.state.response} />
+        <Ideas responseFacts={this.state.response} />
         <Form addPrompt={this.state.addPrompt}/>
       </main>
     )
