@@ -1,23 +1,25 @@
 import React from 'react'
 import Card from '../Card/Card'
+// import { prompt, responses } from '../Form/Form'
 import './Ideas.css'
 
-const Ideas = ({responseFacts}) => {
+const Ideas = ( {responses} ) => {
 
-const ideaCards = responseFacts.map(idea => {
+const ideaCards = responses.map(idea => {
   return(
     <Card
-      facts={responseFacts}
-      id={Date.now()}
-      key={responseFacts.id}
+      prompt={idea.prompt}
+      facts={idea.response}
+      id={idea.id}
+      key={idea.id}
     />
   )
 })
 
   return (
     <div className='ideas-container'>
-      <h2>{ideaCards}</h2>
-    </div>
+    // {console.log(responses, 'hi')}
+    {ideaCards}</div>
   )
 }
 
