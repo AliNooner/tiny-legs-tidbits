@@ -3,9 +3,9 @@
   border: 3px solid black;
   padding: 10px;
   overflow-wrap: break-word;
-  max-height: 100px;
+  max-height: 150px;
   overflow-y: scroll;
-  width: 90%;
+  width: 80%;
 }
 
 .facts {

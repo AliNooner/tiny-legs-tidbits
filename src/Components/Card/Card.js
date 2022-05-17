@@ -4,7 +4,7 @@ const Card = ({ prompt, facts }) => {
   return (
     <div className="card">
       <div className="entry">
-        <h3 className="prompt"><em>{prompt}</em></h3>
+        <h3 className="prompt">{prompt}</h3>
         <h3 className="facts">{facts}</h3>
         {console.log(prompt, "pr")}
         {console.log(facts, "fc")}
