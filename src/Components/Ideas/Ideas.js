@@ -18,7 +18,6 @@ const ideaCards = responses.map(idea => {
 
   return (
     <div className='ideas-container'>
-    // {console.log(responses, 'hi')}
     {ideaCards}</div>
   )
 }
