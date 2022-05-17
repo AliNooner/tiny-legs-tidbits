@@ -34,7 +34,7 @@ class Form extends Component {
           className='input-info'
           type='text'
           name='prompt'
-          placeholder='Ask me something'
+          placeholder='Ask me anything!'
           value={this.state.prompt}
           onChange={(e) => this.handleChange(e)}
           required

@@ -37,9 +37,9 @@ addPrompt = (newPrompt, newResponse) => {
   render() {
     return(
       <main className='App'>
-        <h1>APP NAME</h1>
-        <Ideas responses={this.state.responses} />
+        <h1>Tell me, Tiny-Leggs-Tim</h1>
         <Form addPrompt={this.addPrompt}/>
+        <Ideas responses={this.state.responses} />
       </main>
     )
   }

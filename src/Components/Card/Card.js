@@ -4,7 +4,6 @@ const Card = ({prompt, facts}) => {
 
   return(
     <div className='card'>
-    <h1>hi</h1>
       <h3>{prompt}</h3>
       <h3>{facts}</h3>
       {console.log(prompt, 'pr')}
