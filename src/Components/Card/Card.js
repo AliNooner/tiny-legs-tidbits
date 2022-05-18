@@ -1,5 +1,6 @@
-import React from "react";
-import "./Card.css";
+import React from "react"
+import "./Card.css"
+
 const Card = ({ prompt, facts }) => {
   return (
     <div className="card">
