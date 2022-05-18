@@ -28,15 +28,15 @@ Ali and TL Tim
 ## Illustrations
 Dashboard: User-friendly interface
 
-![Main page](https://user-images.githubusercontent.com/92279624/169146519-349551af-399f-4119-abb8-22d9cec9593b.gif)
+![Main page view](https://user-images.githubusercontent.com/92279624/169146519-349551af-399f-4119-abb8-22d9cec9593b.gif)
 
 Scrolling for easy-to-use navigation
 
-![Scroll feature](https://user-images.githubusercontent.com/92279624/169146861-7eba454a-1301-4608-80f4-7dc643a763b4.gif)
+![Scroll view](https://user-images.githubusercontent.com/92279624/169146861-7eba454a-1301-4608-80f4-7dc643a763b4.gif)
 
 ## Deployed Page
 
-Visit the deployed [Tell Me, Tiny Legs Tim]()
+Visit the deployed [Tell Me, Tiny Legs Tim](https://classy-dock.surge.sh/)
 
 ## Set Up
 To run this app locally:
