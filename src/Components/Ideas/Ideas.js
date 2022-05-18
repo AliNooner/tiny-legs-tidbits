@@ -16,9 +16,11 @@ const ideaCards = responses.map(idea => {
   )
 })
 
+const orderedCards = ideaCards.reverse()
+
   return (
     <div className='ideas-container'>
-    {ideaCards}</div>
+    {orderedCards}</div>
   )
 }
 
