@@ -23,7 +23,12 @@ code {
     monospace;
 }
 
-h1, h2, h3 {
+* {
   font-family: 'Zen Loop', cursive;
   font-weight: bold;
+}
+
+.title {
+  padding-top: 5px;
+  /* font-size: 1em; */
 }

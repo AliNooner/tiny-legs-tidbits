@@ -4,14 +4,14 @@ import Form from '../Form/Form'
 // import { responseData, data } from '../../APIcalls'
 import "./App.css"
 
-const data = {
-  "prompt": "What are 5 key points I should know when studying Ancient Rome?",
-  "temperature": 0.3,
-  "max_tokens": 150,
-  "top_p": 1.0,
-  "frequency_penalty": 0.0,
-  "presence_penalty": 0.0
-};
+// const data = {
+//   "prompt": "What are 5 key points I should know when studying Ancient Rome?",
+//   "temperature": 0.3,
+//   "max_tokens": 150,
+//   "top_p": 1.0,
+//   "frequency_penalty": 0.0,
+//   "presence_penalty": 0.0
+// };
 
 
 class App extends Component {
@@ -26,6 +26,7 @@ class App extends Component {
 increaseCounter = () => {
     this.state.counter += 1
   }
+
 
 addPrompt = (newPrompt, newResponse) => {
   console.log(newResponse, 'newResponse')

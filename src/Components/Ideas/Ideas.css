@@ -1,5 +1,5 @@
 .ideas-container {
-  padding: 20px;
+  /* padding: 20px; */
   display: grid;
   grid-template-rows: auto;
   /* display: grid; */
@@ -9,4 +9,5 @@
   max-height: 500px;
   overflow-y: scroll;
   padding-left: 230px;
+
 }
