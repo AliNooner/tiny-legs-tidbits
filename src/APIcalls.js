@@ -10,6 +10,7 @@ const responseData = (prompt) => {
     "presence_penalty": 0.0
   };
 
+  // console.log(process.env.REACT_APP_MY_API_KEY, 'yass')
   return fetch("https://api.openai.com/v1/engines/text-curie-001/completions", {
     method: "POST",
     headers: {
