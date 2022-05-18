@@ -32,7 +32,8 @@ addPrompt = (newPrompt, newResponse) => {
   console.log(newResponse, 'newResponse')
   console.log(newPrompt, 'newPrompt')
   this.increaseCounter()
-  this.setState({responses:[...this.state.responses,{prompt: newPrompt,response: newResponse, id: this.state.counter}]})
+  // this.setState({responses:[...this.state.responses,{prompt: newPrompt,response: newResponse, id: this.state.counter}]})
+  this.setState({responses:[{prompt: newPrompt,response: newResponse, id: this.state.counter}, ...this.state.responses]})
 }
 
   render() {
