@@ -10,9 +10,9 @@
 
 ## Introduction
 
-Presenting Tell Me, Tiny Legs Tim! An app that provides users with endless fun facts, delivered by the bird with the biggest brain but the tiniest legs. Tiny Legs Tim allows users to search for any topic they’re interested in and receive a fun fact straight from the beak of the tiniest bird in town.
+Presenting Tell Me, Tiny Legs Tim! An app that provides users with endless fun facts, delivered by the bird with the biggest brain but the tiniest legs. Tiny Legs Tim allows users to search for any topic they’re interested in and receive a fun fact, straight from the beak of the tiniest bird in town.
 
-The simple and easy-to-use interface provides users with a calming and straight forward experience. When a user visits the homepage, they are presented with a search bar, Submit button, and Tim’s most recent profile pic. After submitting a topic they would like to learn more about, fun facts pop up on the page and are stored in order from the most recent search to the oldest.
+The simple and easy-to-use interface provides users with a calming and straight forward experience. When a user visits the homepage, they are presented with a search bar, Submit button and Tim’s most recent profile pic. After submitting a topic they would like to learn more about, fun facts pop up on the page and are stored in order from the most recent search to the oldest.
 
 These days, sometimes all we want is to expand our knowledge simply with something adorable to look at. We hope you enjoy this app!
 
@@ -28,15 +28,15 @@ Ali and TL Tim
 ## Illustrations
 Main Page: User-friendly interface
 
-![Main page view](https://media3.giphy.com/media/bVyM8oVcl3QHoPjlRn/giphy.gif)
+![Main page](https://user-images.githubusercontent.com/92279624/169146519-349551af-399f-4119-abb8-22d9cec9593b.gif)
 
 Scrolling for easy-to-use navigation
 
-![Scroll view](https://media3.giphy.com/media/bVyM8oVcl3QHoPjlRn/giphy.gif)
+![Scroll feature](https://user-images.githubusercontent.com/92279624/169146861-7eba454a-1301-4608-80f4-7dc643a763b4.gif)
 
 ## Deployed Page
 
-Visit the deployed [Tell Me, Tiny Legs Tim](https://fowl-prowl-turing.surge.sh)
+Visit the deployed [Tell Me, Tiny Legs Tim]()
 
 ## Set Up
 To run this app locally:
