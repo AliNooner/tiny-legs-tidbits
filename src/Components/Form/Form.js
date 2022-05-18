@@ -40,7 +40,7 @@ class Form extends Component {
           required
           />
 
-          <button className='submit-btn'>SUBMIT</button>
+          <button className='submit-btn'>Tell me, Tim!</button>
         </form>
     )
   }

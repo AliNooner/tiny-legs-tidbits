@@ -1,6 +1,7 @@
 .card {
   box-sizing: border-box;
-  border: 3px solid black;
+  border: 2px solid #d5bdaf;
+  border-radius: 4px;
   padding: 10px;
   overflow-wrap: break-word;
   max-height: 150px;
@@ -17,6 +18,7 @@
 }
 
 .prompt {
+  color: #f5ebe0;
   /* font-size: 1.75em; */
   /* font-weight: bolder; */
 }
