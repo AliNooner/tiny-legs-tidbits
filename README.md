@@ -36,7 +36,7 @@ Scrolling for easy-to-use navigation
 
 ## Deployed Page
 
-Visit the deployed [Tell Me, Tiny Legs Tim](https://fowl-prowl-turing.surge.sh)
+Visit the deployed [Tell Me, Tiny Legs Tim](https://classy-dock.surge.sh/) 
 
 ## Set Up
 To run this app locally:
