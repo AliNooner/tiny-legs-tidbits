@@ -29,18 +29,18 @@ class Form extends Component {
 
   render() {
     return(
-      <form onSubmit={this.handleSubmit}>
+      <form className='form' onSubmit={this.handleSubmit}>
         <input
           className='input-info'
           type='text'
           name='prompt'
-          placeholder='Ask me something'
+          placeholder='Ask me anything!'
           value={this.state.prompt}
           onChange={(e) => this.handleChange(e)}
           required
           />
 
-          <button className='submit-btn'>SUBMIT</button>
+          <button className='submit-btn'>Tell me, Tim!</button>
         </form>
     )
   }
