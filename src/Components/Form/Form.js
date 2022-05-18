@@ -14,6 +14,10 @@ class Form extends Component {
     this.setState({prompt:e.target.value})
   }
 
+  // clearInputs = () => {
+  //   this.setState({prompt: ''})
+  // }
+
 
   handleSubmit = (e) => {
     e.preventDefault()
@@ -21,6 +25,7 @@ class Form extends Component {
     responseData(this.state.prompt)
     .then(data => this.props.addPrompt(this.state.prompt, data.choices[0].text))
     // console.log('prompt', this.state.prompt)
+    // this.clearInputs()
     // console.log('responses', this.state.responses)
   }
 
