@@ -28,11 +28,11 @@ Ali and TL Tim
 ## Illustrations
 Main Page: User-friendly interface
 
-![Main page view](https://media3.giphy.com/media/bVyM8oVcl3QHoPjlRn/giphy.gif)
+![Main page view](https://user-images.githubusercontent.com/92279624/169146519-349551af-399f-4119-abb8-22d9cec9593b.gif)
 
 Scrolling for easy-to-use navigation
 
-![Scroll view](https://media3.giphy.com/media/bVyM8oVcl3QHoPjlRn/giphy.gif)
+![Scroll view](https://user-images.githubusercontent.com/92279624/169146861-7eba454a-1301-4608-80f4-7dc643a763b4.gif)
 
 ## Deployed Page
 
