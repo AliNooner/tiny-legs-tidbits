@@ -1,48 +1,42 @@
-import React, { Component } from 'react'
-import responseData from '../../APIcalls'
-import './Form.css'
+import React, { Component } from "react"
+import responseData from "../../APIcalls"
+import "./Form.css"
 
 class Form extends Component {
   constructor(props) {
-    super(props)
+    super(props);
     this.state = {
-      prompt: '',
-    }
+      prompt: "",
+    };
   }
 
   handleChange = (e) => {
-    this.setState({prompt:e.target.value})
-  }
-
+    this.setState({ prompt: e.target.value });
+  };
 
   handleSubmit = (e) => {
-    e.preventDefault()
-    // this.setState({prompt:''})
-    responseData(this.state.prompt)
-    .then(data => this.props.addPrompt(this.state.prompt, data.choices[0].text))
-    // console.log('prompt', this.state.prompt)
-    // console.log('responses', this.state.responses)
-  }
-
-
-
+    e.preventDefault();
+    responseData(this.state.prompt).then((data) =>
+      this.props.addPrompt(this.state.prompt, data.choices[0].text)
+    );
+  };
 
   render() {
-    return(
-      <form className='form' onSubmit={this.handleSubmit}>
+    return (
+      <form className="form" onSubmit={this.handleSubmit}>
         <input
-          className='input-info'
-          type='text'
-          name='prompt'
-          placeholder='Ask me anything!'
+          className="input-info"
+          type="text"
+          name="prompt"
+          placeholder="Ask me anything!"
           value={this.state.prompt}
           onChange={(e) => this.handleChange(e)}
           required
-          />
+        />
 
-          <button className='submit-btn'>Tell me, Tim!</button>
-        </form>
-    )
+        <button className="submit-btn">Tell me, Tim!</button>
+      </form>
+    );
   }
 }
 

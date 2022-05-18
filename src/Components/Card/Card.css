@@ -8,17 +8,13 @@
   overflow-y: scroll;
   width: 80%;
   background-color: #faedcd40;
-  /* opacity: 30%; */
 }
 
 .facts {
   color: black;
   font-weight: bold;
-  /* font-size: 1.5em; */
 }
 
 .prompt {
   color: #f5ebe0;
-  /* font-size: 1.75em; */
-  /* font-weight: bolder; */
 }

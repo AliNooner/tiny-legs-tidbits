@@ -1,13 +1,8 @@
 .ideas-container {
-  /* padding: 20px; */
   display: grid;
   grid-template-rows: auto;
-  /* display: grid; */
-  /* grid-template-columns: repeat(3, 1fr); */
   grid-gap: 20px;
-  /* min-height: 0px; */
   max-height: 500px;
   overflow-y: scroll;
   padding-left: 230px;
-
 }
