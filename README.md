@@ -1,71 +1,49 @@
-# Getting Started with Create React App
+# Tell Me, Tiny Legs Tim
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Table of Contents
 
-## Available Scripts
+  - [Introduction](#Introduction)
+  - [Technologies](#Technologies)
+  - [Illustrations](#Illustrations)
+  - [Deployed Page](#Deployed-Page)
+  - [Set Up](#Set-Up)
 
-In the project directory, you can run:
+## Introduction
 
-### `npm start`
+Presenting Tell Me, Tiny Legs Tim! An app that provides users with endless fun facts, delivered by the bird with the biggest brain but the tiniest legs. Tiny Legs Tim allows users to search for any topic they’re interested in and receive a fun fact straight from the beak of the tiniest bird in town.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+The simple and easy-to-use interface provides users with a calming and straight forward experience. When a user visits the homepage, they are presented with a search bar, Submit button, and Tim’s most recent profile pic. After submitting a topic they would like to learn more about, fun facts pop up on the page and are stored in order from the most recent search to the oldest.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+These days, sometimes all we want is to expand our knowledge simply with something adorable to look at. We hope you enjoy this app!
 
-### `npm test`
+Sincerely,
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Ali and TL Tim
 
-### `npm run build`
+## Technologies
+  - React
+  - JavaScript
+  - CSS
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Illustrations
+Main Page: User-friendly interface
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Main page view](https://media3.giphy.com/media/bVyM8oVcl3QHoPjlRn/giphy.gif)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Scrolling for easy-to-use navigation
 
-### `npm run eject`
+![Scroll view](https://media3.giphy.com/media/bVyM8oVcl3QHoPjlRn/giphy.gif)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Deployed Page
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Visit the deployed [Tell Me, Tiny Legs Tim](https://fowl-prowl-turing.surge.sh)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Set Up
+To run this app locally:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# tech-challenge
+- Fork this repository
+- Run `git clone` git@github.com:AliNooner/tiny-legs-tidbits.git in your command line
+- Run `tiny-legs-tidbits` to navigate into the repository
+- Run `npm install`
+- Run `npm start`
+- Visit http://localhost:3000/ in your browser to view the Tell Me, Tiny Legs Tim app!
