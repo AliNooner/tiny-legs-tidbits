@@ -14,10 +14,14 @@ class Form extends Component {
     this.setState({prompt:e.target.value})
   }
 
+  clearForm = () => {
+   this.setState({ prompt: '' });
 
+ };
 
   handleSubmit = (e) => {
     e.preventDefault()
+    this.clearForm()
     // this.setState({prompt:''})
     responseData(this.state.prompt)
     .then(data => this.props.addPrompt(this.state.prompt, data.choices[0].text))
