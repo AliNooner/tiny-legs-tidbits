@@ -26,7 +26,7 @@ Ali and TL Tim
   - CSS
 
 ## Illustrations
-Main Page: User-friendly interface
+Dashboard: User-friendly interface
 
 ![Main page](https://user-images.githubusercontent.com/92279624/169146519-349551af-399f-4119-abb8-22d9cec9593b.gif)
 
