@@ -1,5 +1,8 @@
 # Tell Me, Tiny Legs Tim
 
+## Deployed Page
+Visit the deployed [Tell Me, Tiny Legs Tim](https://classy-dock.surge.sh/) 
+
 ## Table of Contents
 
   - [Introduction](#Introduction)
