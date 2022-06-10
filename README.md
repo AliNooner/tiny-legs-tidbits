@@ -1,11 +1,13 @@
 # Tell Me, Tiny Legs Tim
 
+## Deployed Page
+Visit the deployed [Tell Me, Tiny Legs Tim](https://classy-dock.surge.sh/) 
+
 ## Table of Contents
 
   - [Introduction](#Introduction)
   - [Technologies](#Technologies)
   - [Illustrations](#Illustrations)
-  - [Deployed Page](#Deployed-Page)
   - [Set Up](#Set-Up)
 
 ## Introduction
@@ -37,6 +39,7 @@ Scrolling for easy-to-use navigation
 ## Deployed Page
 
 Visit the deployed [Tell Me, Tiny Legs Tim](https://classy-dock.surge.sh/)
+
 
 ## Set Up
 To run this app locally:
