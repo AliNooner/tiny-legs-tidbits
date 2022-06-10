@@ -6,7 +6,7 @@ class Form extends Component {
   constructor(props) {
     super(props);
     this.state = {
-      prompt: "",
+      prompt: '',
     };
   }
 
@@ -18,8 +18,8 @@ class Form extends Component {
     e.preventDefault();
     responseData(this.state.prompt).then((data) =>
       this.props.addPrompt(this.state.prompt, data.choices[0].text)
-    );
-  };
+    ).finally(() => this.setState({prompt: '' })
+  )};
 
   render() {
     return (
